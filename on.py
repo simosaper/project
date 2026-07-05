@@ -114,7 +114,8 @@ url4 = "http://www.defacers.org/gold!"
 
 def zonehh():
     print("""
-        |---| Grabb Sites From Zone-h |--|
+        |---|    By: @simosaper11     |---|
+        |---| Grabb Sites From Zone-h |---|
         \033[91m[1] \033[95mGrabb Sites By Notifier
         \033[91m[2] \033[95mGrabb Sites By Onhold
         """)
@@ -170,7 +171,7 @@ def zonehh():
                 for xxx in Hunt_urlss:
                     qqqq = xxx.replace('...', '')
                     print('    [' + '*' + '] ' + qqqq.split('/')[0])
-                    with open('0.txt', 'a') as rrr:
+                    with open('simosaper.txt', 'a') as rrr:
                         rrr.write("http://" + qqqq.split('/')[0] + '\n')
     else:
         print("Fuck You Men")
